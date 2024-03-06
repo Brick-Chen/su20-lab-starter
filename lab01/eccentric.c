@@ -4,7 +4,7 @@
 #define V0 0
 #define V1 -1
 #define V2 0
-#define V3 0
+#define V3 3
 
 int main(void) {
     int a;
@@ -16,14 +16,14 @@ int main(void) {
     printf("Berkeley eccentrics:\n====================\n");
 
     /* for loop */
-    for (a = 0; a < V0; a++)
+    for (a = 0; a < V3; a++)
     {
         printf("Happy ");
     }
     printf("\n");
 
     /* switch statement */
-    switch (V1)
+    switch (V3)
     {
     case 0:
         printf("Yoshua\n");
@@ -48,7 +48,7 @@ int main(void) {
     s = (V3 == 3) ? "Go" : "Boo";
 
     /* if statement */
-    if (V2) {
+    if (V3) {
         printf("%s BEARS!\n", s);
     } else {
         printf("%s CARDINAL!\n", s);
